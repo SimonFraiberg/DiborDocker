@@ -20,26 +20,25 @@
   <li>
 <img src=https://user-images.githubusercontent.com/25181517/183897015-94a058a6-b86e-4e42-a37f-bf92061753e5.png style="height:40px">
                                                        </li>
+
+                                                       
+  <li>
+<img src=https://www.vikingsoftware.com/wp-content/uploads/2024/02/Docker.png style="height:40px">
+                                                       </li>
 </ul>
 
 
 </ul><h2>Setup</h2>
-<hr><p>the app was created with react running as a build with nodeJS server. to start follow the steps:</p><h5>Steps</h5><ul>
+<hr><p>the app was created with react running as a build with nodeJS server. for easy deployment created docker file to build and run</p><h5>Steps</h5><ul>
 <li>clone the repository</li>
 </ul><ul>
 <li>cd to the dibor folder</li>
   </ul><ul>
-<li>install express with the command 'npm i express</li>
+<li>run the command docker-compose up --build</li>
     </ul><ul>
-<li>make sure mongodb is installed and the mongo service is running</li>
+<li>the command will both build and run two containers, one for mongoDB and one for the nodejs server running the client too f</li>
 </ul><ul>
-<li>run the server with the command 'node app.js'</li>
-</ul><ul>
-<li>the server will run as default on port 12345.</li>
-</ul><ul>
-<li>in your browser go to http://localhost:12345/</li>
-</ul><ul>
-<li>note that the dataBase will run at the default mongodb port in a folder named dibor: mongodb://localhost:27017/dibor. the Socket.IO server will run at port 3001</li>
+
   
   </ul><h2>Features in chat</h2>
 <hr><ul>
