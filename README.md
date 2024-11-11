@@ -39,11 +39,4 @@
 <li>the command will both build and run two containers, one for mongoDB and one for the nodejs server running the client too f</li>
 </ul><ul>
 
-  
-  </ul><h2>Features in chat</h2>
-<hr><ul>
-<li>Filter Contacts.</li>
-</ul><ul>
-<li>Search messages and scroll between them.</li>
-</ul><h2>Project Status</h2>
-<hr><p>in progress</p>
+ 
