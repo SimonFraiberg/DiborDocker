@@ -1,0 +1,24 @@
+version: "3"
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "12345:12345" # Expose your Node.js app's port
+      - "3001:3001" # Expose the Socket.IO port
+
+    depends_on:
+      - mongo
+    environment:
+      - CONNECTION_STRING=mongodb://mongo:27017/mydatabase # Connection URL for MongoDB
+
+  mongo:
+    image: mongo:4.4
+    ports:
+      - "27017:27017" # Expose MongoDB's port
+    volumes:
+      - mongo-data:/data/db # Persistent storage for MongoDB data
+
+volumes:
+  mongo-data:
