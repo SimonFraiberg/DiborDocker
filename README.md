@@ -1,7 +1,5 @@
 <h1>dibor</h1>
-<hr><p>Dibor is a web-based chat application inspired by WhatsApp Web made by Amit Hazan &amp; Simon Fraiberg.</p><h2>General Information</h2>
-<hr><ul>
-<li>the app was created with react. the app is a project for a second year course name Advanced-programming-2 in bar-ilan university</li>
+<hr><p>Dibor is a web-based chat application inspired by WhatsApp Web made by Amit Hazan &amp; Simon Fraiberg.</p>
 </ul><h2>Technologies Used</h2>
 <hr><ul>
   <ul>
@@ -16,6 +14,16 @@
   <li>
 <img src=https://user-images.githubusercontent.com/25181517/183898054-b3d693d4-dafb-4808-a509-bab54cf5de34.png style="height:40px">
                                                        </li>
+
+  <li>
+<img src=https://i0.wp.com/iotbyhvm.ooo/wp-content/uploads/2019/01/Socket.IO_.png?fit=875%2C474&ssl=1 style="height:40px">
+                                                       </li>
+
+                                                                                                              
+  <li>
+<img src=https://miro.medium.com/v2/resize:fit:900/1*TY9uBBO9leUbRtlXmQBiug.png style="height:40px">
+                                                       </li>
+                                                       
                                                        
   <li>
 <img src=https://user-images.githubusercontent.com/25181517/183897015-94a058a6-b86e-4e42-a37f-bf92061753e5.png style="height:40px">
